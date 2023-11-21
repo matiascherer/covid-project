@@ -30,4 +30,4 @@ Below is an overview of the key queries executed for data visualization on Table
 
 ![image](https://github.com/matiascherer/covid-project/assets/63814565/479fb6b5-fef1-4c72-884e-3848bc9b1d10)
 
-Access the interactive dashboard here: https://public.tableau.com/app/profile/matias.scherer/viz/CovidProject_16912046095940/Painel1
+**Access the interactive dashboard here:** https://public.tableau.com/app/profile/matias.scherer/viz/CovidProject_16912046095940/Painel1
