@@ -45,7 +45,7 @@ FROM CovidDeaths
 GROUP BY Location, Population
 ORDER BY PercentPopulationInfected DESC
 
---Showing the countries with the Highest Death Count per Population
+--Showing the countries with the Highest Death Count
 SELECT location, MAX(CAST(total_deaths AS int)) AS TotalDeathsCount
 FROM CovidDeaths
 WHERE continent IS NOT NULL
