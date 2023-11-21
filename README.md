@@ -18,10 +18,14 @@ Below is an overview of the key queries executed for data exploration and analys
 - Analysis of total cases vs. total deaths to understand the likelihood of death if contracting COVID-19 in Brazil.
 - Examination of total cases vs. population to determine the percentage of the population infected.
 
+# Main insights
+
+- 
+
 # Data Visualization
 Below is an overview of the key queries executed for data visualization on Tableau:
 
-- Total cases, total deaths and death percentage (global)
+- Total cases, total deaths and death percentage (global).
 - Total deaths per continent.
 - Total infections and percentage per country.
 - Total infections and percentage per country over time.
