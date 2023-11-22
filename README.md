@@ -10,20 +10,26 @@ This project utilizes Excel, SQL, and Tableau to analyze public data related to 
 # Data Exploration and Preparation
 Below is an overview of the key queries executed for data exploration and analysis:
 
-- Initial exploration of the dataset, filtering out records with a null continent, and ordering by location and date
+- Initial exploration of the dataset, filtering out records with a null continent, and ordering by location and date.
 - Alteration of the data type of the total_deaths column to decimal.
 - Selection of relevant columns for analysis: location, date, total_cases, new_cases, total_deaths, and population.
 - Exploration of the likelihood of death if contracting COVID-19 in Brazil.
 - Initial exploration of the CovidVaccinations dataset, ordering by location and date.
 - Analysis of total cases vs. total deaths to understand the likelihood of death if contracting COVID-19 in Brazil.
 - Examination of total cases vs. population to determine the percentage of the population infected.
+- Analysis of the the vaccinated population per country over time.
+
+**Example:**
+
+![image](https://github.com/matiascherer/covid-project/assets/63814565/17ad32a2-da97-47ac-85f5-ea665c2308b6)
+
 
 # Main insights
 
 - 
 
 # Data Visualization
-Below is an overview of the key queries executed for data visualization on Tableau:
+Below is an overview of the key queries executed for data visualization on **Tableau**:
 
 - Total cases, total deaths and death percentage (global).
 - Total deaths per continent.
