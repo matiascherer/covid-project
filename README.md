@@ -40,6 +40,7 @@ Below is an overview of the key queries executed for data visualization on **Tab
 
 ![image](https://github.com/matiascherer/covid-project/assets/63814565/479fb6b5-fef1-4c72-884e-3848bc9b1d10)
 
+![image](https://github.com/matiascherer/covid-project/assets/63814565/9ef80719-4fae-471d-95cd-cfdfc0c74131)
 
 
 **Access the interactive dashboards here:** 
