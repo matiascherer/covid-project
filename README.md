@@ -34,11 +34,11 @@ Below is an overview of the key queries executed for data exploration and analys
 # Data Visualization
 Below is an overview of the key queries executed for data visualization on **Tableau**:
 
-- Total cases, total deaths and death percentage (global).
-- Total deaths per continent.
-- Total infections and percentage per country.
-- Total infections and percentage per country over time.
-- Total Cases share per Continent over time.
+- Total Cases, Total Deaths and Death Percentage (Global).
+- Total Deaths per Continent.
+- Total Infections and Percentage per Country.
+- Total Infections and Percentage per Country Over Time.
+- Total Cases Share per Continent Over Time.
 
 ![image](https://github.com/matiascherer/covid-project/assets/63814565/479fb6b5-fef1-4c72-884e-3848bc9b1d10)
 
