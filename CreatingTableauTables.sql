@@ -30,4 +30,39 @@ MAX(Total_Cases/Population) * 100 AS PercentPopulationInfected
 FROM CovidDeaths
 GROUP BY Location, Population, date
 ORDER BY PercentPopulationInfected DESC, date DESC
+
+-- 5
+
+WITH CTE AS
+	(SELECT
+		FORMAT(Date, 'yyyy-MM') AS MonthYear,
+		Continent,
+		MAX(Population) AS Population,
+		SUM(Total_Cases) AS Total_Cases
+	FROM CovidDeaths
+	WHERE Continent IS NOT NULL AND DATE >= '2020-03-01'
+	GROUP BY FORMAT(Date, 'yyyy-MM'), Continent),
+	
+	CTE2 AS
+		(SELECT 
+			MonthYear,
+			Continent,
+			MAX(Population) AS Total_Population,
+			SUM(Total_Cases) AS Total_Cases,
+			SUM(SUM(Total_Cases)) OVER (PARTITION BY MonthYear) AS Total_Cases_All_Continents,
+			SUM(SUM(Population)) OVER (PARTITION BY MonthYear) AS Total_Population_All_Continents
+		FROM CTE
+		GROUP BY MonthYear, Continent)
+
+SELECT 
+	MonthYear,
+	Continent,
+	Total_Cases,
+	Total_Cases_All_Continents,
+	(Total_Cases/Total_Cases_All_Continents) AS Total_Cases_Share,
+	Total_Population,
+	Total_Population_All_Continents,
+	(Total_Population*1.0/Total_Population_All_Continents) AS Total_Population_Share
+FROM CTE2
+ORDER BY MonthYear, Continent
  
