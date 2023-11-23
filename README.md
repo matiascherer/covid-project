@@ -27,7 +27,7 @@ Below is an overview of the key queries executed for data exploration and analys
 
 # Main insights
 
-- 
+- C
 
 # Data Visualization
 Below is an overview of the key queries executed for data visualization on **Tableau**:
@@ -36,7 +36,13 @@ Below is an overview of the key queries executed for data visualization on **Tab
 - Total deaths per continent.
 - Total infections and percentage per country.
 - Total infections and percentage per country over time.
+- Total Cases share per Continent over time.
 
 ![image](https://github.com/matiascherer/covid-project/assets/63814565/479fb6b5-fef1-4c72-884e-3848bc9b1d10)
 
-**Access the interactive dashboard here:** https://public.tableau.com/app/profile/matias.scherer/viz/CovidProject_16912046095940/Painel1
+
+
+**Access the interactive dashboards here:** 
+
+- https://public.tableau.com/app/profile/matias.scherer/viz/CovidProject_16912046095940/Painel1
+- https://public.tableau.com/app/profile/matias.scherer/viz/CovidProject2_17006999399440/Painel2?publish=yes
