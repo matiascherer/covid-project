@@ -29,7 +29,7 @@ Below is an overview of the key queries executed for data exploration and analys
 
 - Despite representing only 10% of the global population, Europe accounted for one-third of the total infections during the period from March 2020 to July 2023. Countries such as Austria, France, and Slovenia experienced infection rates surpassing 50% of their populations, contributing to the substantial concentration of cases on the continent. Among the potential causes for this notable phenomenon, the unrestricted movement of people among European Union countries is highlighted.
 - Shortly after the onset of the pandemic, the mortality rate (total deaths/total cases) in Brazil showed a continuous increase, reaching its peak on 01/05/2020 at 6.99%. Subsequently, this rate began to decline due to the strengthening of healthcare infrastructure and the implementation of social distancing measures, even before the introduction of vaccines.
-- 
+- During the selected period (03/2020 to 07/2023), Peru was the country that experienced the highest proportional loss of lives relative to its population (0.65%). With 221 thousand deaths in a total population of 34 million people, this equates to 650 deaths per 100 thousand inhabitants. Despite implementing strict social isolation measures since the beginning of the pandemic, the slow pace of the vaccination campaign and the inadequacy of the country's healthcare system are potential factors contributing to this situation.
 
 # Data Visualization
 Below is an overview of the key queries executed for data visualization on **Tableau**:
