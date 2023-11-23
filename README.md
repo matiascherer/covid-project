@@ -27,7 +27,8 @@ Below is an overview of the key queries executed for data exploration and analys
 
 # Main insights
 
-- C
+- Despite representing only 10% of the global population, Europe accounted for one-third of the total infections during the period from March 2020 to July 2023. Countries such as Austria, France, and Slovenia experienced infection rates surpassing 50% of their populations, contributing to the substantial concentration of cases on the continent. Among the potential causes for this notable phenomenon, the unrestricted movement of people among European Union countries is highlighted.
+- 
 
 # Data Visualization
 Below is an overview of the key queries executed for data visualization on **Tableau**:
